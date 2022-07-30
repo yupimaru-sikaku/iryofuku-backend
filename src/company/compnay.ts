@@ -23,7 +23,7 @@ export class Company {
     personal_name: string
     
     @Column()
-    telephone_number: string
+    phone_number: string
 
     @Column({ unique: true })
     email: string
