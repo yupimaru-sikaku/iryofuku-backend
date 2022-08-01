@@ -5,7 +5,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 export class Admin {
 
     @PrimaryGeneratedColumn()
-    id: string;
+    id: number;
 
     @Column({ unique: true })
     email: string;

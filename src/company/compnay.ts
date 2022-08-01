@@ -5,7 +5,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 export class Company {
 
     @PrimaryGeneratedColumn()
-    id: string
+    id: number;
 
     @Column({ unique: true })
     company_name: string
