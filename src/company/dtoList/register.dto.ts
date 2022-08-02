@@ -3,7 +3,7 @@ import { IsEmail, IsNotEmpty } from "class-validator";
 export class RegisterDto {
 
     @IsNotEmpty()
-    compnay_name: string;
+    company_name: string;
     
     @IsNotEmpty()
     company_number: string;
