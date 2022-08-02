@@ -28,13 +28,13 @@ export class Company {
     @Column({ unique: true })
     email: string
     
-    @Column()
+    @Column({ default: false})
     is_user: boolean
     
-    @Column()
+    @Column({ default: true })
     is_company: boolean
     
-    @Column()
+    @Column({ default: false })
     is_admin: boolean
 
     @Column()
