@@ -17,7 +17,7 @@ export abstract class AbstractService {
         return this.repository.findOne(options);
     }
 
-    async updata(id: string, options) {
+    async update(id: string, options) {
         return this.repository.update(id, options);
     }
 
